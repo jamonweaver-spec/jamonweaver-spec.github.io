@@ -31,7 +31,7 @@ toggleGrid();
 
 
 // TODO 2 - Create Platforms
-createPlatform(300,600, 200,20);
+createPlatform(300,650, 100,20);
 createPlatform(500,500,200,20);
 createPlatform(700,400,200,20);
 createPlatform(900,300,200,20);
@@ -55,8 +55,8 @@ createCollectable('database', 475, 300, 0.5, 0.7);
 createCannon("top",850,2000);
 createCannon("left",480,2000);
 createCannon("right",320,2000);
-createCannon('bottom', 600, 1000);
-createCannon('right', 600, 1000);  
+createCannon('bottom', 600, 2000);
+createCannon('right', 600, 2 000);  
 
 //////////////////////////////////
 // ONLY CHANGE ABOVE THIS POINT //
